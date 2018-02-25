@@ -2,7 +2,6 @@
 # File: guessinggame.sh
 
 #this command used to exclude any sub-directories that may be in the current directory
-
 file_num () {
 	ls -l | egrep -v "^total|^d" | wc -l
 }
